@@ -1,0 +1,232 @@
+img {vertical-align: middle;}
+body{
+    scroll-behavior: smooth;
+    background-color: #fdf2e7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+h1{
+    font-size:2em;
+    color: rgb(10, 24, 10);
+    text-align:left;
+    opacity: 1;
+    margin: 0;
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    color: rgb(10, 24, 10);
+    margin:0.3;
+}
+
+/*         HEADER          */
+
+header{
+    background: url("img/bannieresapin.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    scroll-behavior: smooth;
+}
+#logo{
+    opacity: 1;
+    margin-left: 60px;
+}
+#en_tete{
+    opacity: 1;
+}
+#buttons{
+    margin: 0;
+    text-align: center;
+}
+
+/* Tous les <button< sur le site */
+button {
+    display: inline-block;
+    background-color: #a3502067;
+    border-radius: 10px;
+    border: 4px double #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0px;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: #f9e6c25d;
+}
+button:hover span {
+    padding-right: 25px;
+}
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* Body */
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.adresse_map {
+    text-align: center;
+    font-size: 30px;
+    margin-right:40px;
+    margin-left: 30px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+body {
+    background: url("img/engagements-background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+label {
+    display: flex;
+    font: 1rem 'Fira Sans', sans-serif;
+    font-weight: 600;
+    margin-left: 800px
+}
+
+input, label, textarea {
+    margin: 5px;
+}
+
+.boite1{
+    display: flex;
+    text-justify: space-between;
+}
+
+/* MAP GOOGLE MAPS */
+
+
+
+
+/* FORMULAIRE DE CONTACT */
+
+body {
+        padding: 0px;}
+  
+  input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+  
+  input[type=submit] {
+    background-color: #1255a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1872D9;
+  }
+  
+  .container {
+    /* Ajouter box-sizing */
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#f2f2f2;
+    padding:20px;
+    width: 100%;
+    /* redéfinition 400 + 2*20 */
+    max-width: 440px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+
+
+
+
+
+
+
+/*    LOUIS FOOTER     */
+
+footer{
+    opacity:0.9;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: center;
+    color:rgb(10, 63, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url("img/footer_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  .footer1{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    text-align: left;
+    flex-grow:1;
+
+  }
+  .text_footer{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content:space-between ;
+    flex-grow:1;
+    margin: 0 0 0 0;
+  }
+  .widget_facebook{
+    flex>-basis: 250px;
+
+  }
+a:link{
+    color:rgb(10, 63, 10);}
+
+a:visited{
+    color:rgb(12, 63, 10);}
+a:hover{
+    color:rgb(8, 63, 8);}
+a:active{
+    color:rgb(14, 63, 10);}
